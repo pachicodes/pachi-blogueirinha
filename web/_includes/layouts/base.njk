@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+      <h1 class="home"><a href="https://pachi.codes">{{ metadata.title }}</a></h1>
       <ul class="nav">
         {%- for nav in collections.nav | reverse -%}
         <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
